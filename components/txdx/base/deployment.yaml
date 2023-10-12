@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: txdx
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-dppc-tenant/byoc-app-nkvu/txdx@sha256:d9db21d20fbd700e8653b881be51687cf4f151b137d5f9869ee4b4eade508e5c
         name: my-java-quarkus
         ports:
         - containerPort: 8081
